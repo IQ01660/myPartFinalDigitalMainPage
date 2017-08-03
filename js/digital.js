@@ -57,9 +57,9 @@ var $quoteTopSlides = $("#digital .topMovingSlidesFrame .overBtnsTop")
 // event for left button
 var indexTop = 0;
 $($leftBtn).on("click",function(){
-    $($h1TopItem).slideUp(1000);
-    $($h2TopItem).slideUp(1000);
-    $($quoteTopSlides).slideUp(1000);
+    $($h1TopItem).slideUp(300);
+    $($h2TopItem).slideUp(300);
+    $($quoteTopSlides).slideUp(300);
     if(indexTop == 1) {
         $($animatedImg).attr("src",topSliderImgArr[0]);
         indexTop = 0;
@@ -71,25 +71,18 @@ $($leftBtn).on("click",function(){
     $($h1TopItem).slideDown(1000);
     $($h2TopItem).slideDown(1000);
     $($quoteTopSlides).slideDown(1000);
-    var curWidth=120;
-    function sizeAnim() 
-    {
-        if (curWidth<=150) 
-        {
-            curWidth+=0.035;
-            console.log(curWidth);
-            $($animatedImg).css("width",curWidth + "%");
-        }
-    }
-    setInterval(sizeAnim,10);
+    $($animatedImg).stop();
+    $($animatedImg).css("width","130%");
+    $($animatedImg).animate({width: "150%"},6000);
 })
 
 //event for right button 
 
 $($rightBtn).on("click",function(){
-    $($h1TopItem).slideUp(1000);
-    $($h2TopItem).slideUp(1000);
-    $($quoteTopSlides).slideUp(1000);
+    
+    $($h1TopItem).slideUp(300);
+    $($h2TopItem).slideUp(300);
+    $($quoteTopSlides).slideUp(300);
     if(indexTop == 1) {
         $($animatedImg).attr("src",topSliderImgArr[0]);
         indexTop = 0;
@@ -101,15 +94,7 @@ $($rightBtn).on("click",function(){
     $($h1TopItem).slideDown(1000);
     $($h2TopItem).slideDown(1000);
     $($quoteTopSlides).slideDown(1000);
-    var curWidth=120;
-    function sizeAnim() 
-    {
-        if (curWidth<=150) 
-        {
-            curWidth+=0.035;
-            console.log(curWidth);
-            $($animatedImg).css("width",curWidth + "%");
-        }
-    }
-    setInterval(sizeAnim,10);
+    $($animatedImg).stop();
+    $($animatedImg).css("width","130%");
+    $($animatedImg).animate({width: "150%"},6000);
 })

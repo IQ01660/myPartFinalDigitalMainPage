@@ -6,6 +6,11 @@ $highlightGreen:#53B778;
         display:none !important; 
     }
 }
+@media only screen and (max-width:540px) {
+    .topInfo {
+        display:none;
+    }
+}
 .topInfo {
     width:100%;
     background-color:$topBarColor;
