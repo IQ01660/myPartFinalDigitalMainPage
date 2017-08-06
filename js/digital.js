@@ -98,3 +98,18 @@ $($rightBtn).on("click",function(){
     $($animatedImg).css("width","130%");
     $($animatedImg).animate({width: "150%"},6000);
 })
+
+// for the central slider 
+
+    // for the first button
+$("#digital .centralSliderButton:nth-child(1) img").click(function(){
+    $("#digital .centralSliderFrame .centralSliderLent").animate({ left:"0%" },800);
+});
+    // for the second button
+$("#digital .centralSliderButton:nth-child(2) img").click(function(){
+    $("#digital .centralSliderFrame .centralSliderLent").animate({ left:"-100%" },800);
+});
+    // for the third button
+$("#digital .centralSliderButton:nth-child(3) img").click(function(){
+    $("#digital .centralSliderFrame .centralSliderLent").animate({ left:"-200%" },800);
+});

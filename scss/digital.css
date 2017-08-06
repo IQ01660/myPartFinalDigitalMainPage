@@ -561,6 +561,20 @@ body {
   width: 100%;
   margin-top: 85px;
 }
+#digital .impressivePortfolio > button {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #53B778;
+  background: #53B778;
+  transition: 0.3s all ease;
+  margin: 40px auto;
+  display: block;
+  border-radius: 0px;
+}
+#digital .impressivePortfolio > button:hover {
+  background: white !important;
+  color: #53B778;
+}
 #digital .impressivePortfolio .impressivePortfolioTitle {
   width: 80%;
   margin: 0px auto;
@@ -746,6 +760,99 @@ body {
 }
 #digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom .overLay button:hover {
   background: transparent;
+}
+
+@media only screen and (min-width: 940px) and (max-width: 1200px) {
+  .centralSliderFrame {
+    height: 400px !important;
+  }
+  .centralSliderFrame .centralSliderLent {
+    height: 400px !important;
+  }
+}
+@media only screen and (max-width: 939px) {
+  .centralSliderFrame {
+    height: 400px !important;
+  }
+  .centralSliderFrame .centralSliderText {
+    width: 60% !important;
+  }
+  .centralSliderFrame .centralSliderLentItem img {
+    width: 130% !important;
+    height: 400px !important;
+  }
+}
+#digital .centralSliderFrame {
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+#digital .centralSliderFrame .centralSliderText {
+  position: absolute;
+  top: 0;
+  color: white;
+  z-index: 3;
+  width: 40%;
+  padding-left: 100px;
+}
+#digital .centralSliderFrame .centralSliderText h2 {
+  margin-top: 40px;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .centralSliderFrame .centralSliderText p {
+  padding-top: 40px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .centralSliderFrame .centralSliderText span {
+  margin-top: 40px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .centralSliderFrame .centralSliderLent {
+  width: 299.99%;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#digital .centralSliderFrame .centralSliderLent .centralSliderLentItem {
+  width: 33.33%;
+  height: 100%;
+  display: inline-block;
+  margin-right: -5px;
+  text-align: center;
+  overflow: hidden;
+}
+#digital .centralSliderFrame .centralSliderLent .centralSliderLentItem img {
+  width: 100%;
+  height: 100%;
+}
+#digital .centralSliderBottomPanel {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  z-index: 5;
+}
+#digital .centralSliderBottomPanel .centralSliderButton {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50%;
+  vertical-align: top;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#digital .centralSliderBottomPanel .centralSliderBottomPanelText {
+  display: block;
+}
+#digital .centralSliderBottomPanel .centralSliderBottomPanelText .centralSliderButtonText {
+  display: inline-block;
+  margin: 0px 25px;
 }
 
 /*# sourceMappingURL=digital.css.map */

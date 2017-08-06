@@ -142,6 +142,20 @@ $fontDarkGrey:#323A45;
     {
         width:100%;
         margin-top:85px;
+        > button {
+            width:25%;
+            padding:10px;
+            border:1px solid $highlightGreen;
+            background:$highlightGreen;
+            transition:0.3s all ease;
+            margin:40px auto;
+            display:block;
+            border-radius:0px;
+            &:hover {
+                background:white !important;
+                color:$highlightGreen;
+            }
+        }
         .impressivePortfolioTitle
         {
             width:80%;
