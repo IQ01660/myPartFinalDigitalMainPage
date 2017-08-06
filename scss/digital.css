@@ -855,4 +855,166 @@ body {
   margin: 0px 25px;
 }
 
+@media only screen and (max-width: 900px) {
+  #digital .reasons .reasonsBotWrapper .leftBox {
+    width: 100% !important;
+    display: block !important;
+  }
+  #digital .reasons .reasonsBotWrapper .rightBox {
+    margin-left: 0 !important;
+    width: 100% !important;
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 870px) {
+  #digital .successProgress {
+    height: 500px !important;
+  }
+}
+#digital .reasons {
+  width: 100%;
+}
+#digital .reasons .reasonsTitle {
+  width: 80%;
+  margin: 0px auto;
+  border-bottom: 1px solid #E9E9E9;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .reasons .reasonsTitle h1 {
+  color: #53B778;
+  font-size: 30px;
+}
+#digital .reasons .reasonsBotWrapper {
+  width: 80%;
+  margin: 20px auto;
+}
+#digital .reasons .reasonsBotWrapper .leftBox {
+  vertical-align: top;
+  width: 55%;
+  display: inline-block;
+}
+#digital .reasons .reasonsBotWrapper .leftBox .leadTitle h1 {
+  font-size: 26px;
+  color: #323A45;
+}
+#digital .reasons .reasonsBotWrapper .leftBox .leadsDesc p {
+  font-size: 18px;
+  color: #8D8D8E;
+}
+#digital .reasons .reasonsBotWrapper .leftBox ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  list-style-type: none;
+}
+#digital .reasons .reasonsBotWrapper .leftBox ul li {
+  color: #8D8D8E;
+  font-size: 18px;
+  word-spacing: 1px;
+  line-height: 35px;
+}
+#digital .reasons .reasonsBotWrapper .leftBox > p {
+  font-size: 18px;
+  color: #8D8D8E;
+}
+#digital .reasons .reasonsBotWrapper .rightBox {
+  margin-top: 25px;
+  border-top: 2px solid #323A45;
+  margin-left: 50px;
+  vertical-align: top;
+  width: 30%;
+  display: inline-block;
+}
+#digital .reasons .reasonsBotWrapper .rightBox h1 {
+  font-size: 26px;
+  color: #323A45;
+}
+#digital .reasons .reasonsBotWrapper .rightBox form {
+  margin-left: 25px;
+}
+#digital .reasons .reasonsBotWrapper .rightBox form input {
+  font-size: 16px;
+  width: 80.5%;
+  display: block;
+  color: #c0c0c1;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1.5px solid #c0c0c1;
+}
+#digital .reasons .reasonsBotWrapper .rightBox form input:focus {
+  outline: none;
+}
+#digital .reasons .reasonsBotWrapper .rightBox form textarea {
+  width: 80.5%;
+  display: block;
+  font-size: 16px;
+  color: #c0c0c1;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1.5px solid #c0c0c1;
+}
+#digital .reasons .reasonsBotWrapper .rightBox form textarea:focus {
+  outline: none;
+}
+#digital .reasons .reasonsBotWrapper .rightBox form label {
+  position: relative;
+  right: 23px;
+  top: 27px;
+  color: #8D8D8E;
+}
+#digital .reasons .reasonsBotWrapper .rightBox button {
+  margin-top: 30px;
+  width: 80%;
+  border: 1px solid #53B778;
+  background: #53B778;
+  border-radius: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  transition: 0.3s all ease;
+}
+#digital .reasons .reasonsBotWrapper .rightBox button:hover {
+  background: white;
+  color: #53B778;
+}
+#digital .successProgress {
+  color: white;
+  width: 100%;
+  height: 276px;
+  background-image: url("../img/digital/success.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#digital .successProgress .innerSuccessPanel {
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+#digital .successProgress .innerSuccessPanel h1 {
+  font-size: 26px;
+}
+#digital .successProgress .innerSuccessPanel .progressPanel {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+#digital .successProgress .innerSuccessPanel .progressPanel .successItem {
+  margin: 10px 20px;
+  display: inline-block;
+}
+#digital .successProgress .innerSuccessPanel .progressPanel .successItem i {
+  font-size: 60px;
+  border-right: 1px solid white;
+  padding-right: 20px;
+}
+#digital .successProgress .innerSuccessPanel .progressPanel .successItem .numbers {
+  color: #53B778;
+  padding-left: 40px;
+  font-size: 36px;
+}
+
 /*# sourceMappingURL=digital.css.map */

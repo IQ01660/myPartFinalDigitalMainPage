@@ -113,3 +113,22 @@ $("#digital .centralSliderButton:nth-child(2) img").click(function(){
 $("#digital .centralSliderButton:nth-child(3) img").click(function(){
     $("#digital .centralSliderFrame .centralSliderLent").animate({ left:"-200%" },800);
 });
+
+//progress numbers
+
+$(document).ready(function(){
+    var i = 0;
+    function numberProg() {
+        if($("body").scrollTop() >= 3000) {
+            function plusNum() {
+                if (i<=2979){
+                    i++;
+                    $("#digital .successProgress .innerSuccessPanel .progressPanel .successItem .numbers").html(i);
+                }
+            }
+            setInterval(plusNum,35);
+        }
+    }
+    setInterval(numberProg,1);
+    
+})
