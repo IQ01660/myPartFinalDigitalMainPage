@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  height: 2000px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -399,6 +398,354 @@ body {
 #digital .topMovingSlidesFrame .overBtnsTop .portfolioBtn:hover {
   color: white;
   background: #53B778;
+}
+
+@media only screen and (max-width: 1070px) {
+  #digital .linksWrapper #client5 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 855px) {
+  #digital .linksWrapper {
+    height: 90px !important;
+  }
+  #digital .linksWrapper .linksItem {
+    line-height: 90px !important;
+  }
+  #digital .linksWrapper #client4 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #digital .linksWrapper {
+    display: none;
+  }
+}
+#digital {
+  width: 100%;
+}
+#digital .linksWrapper {
+  width: 100%;
+  height: 120px;
+  background: #f5f6f7;
+  text-align: center;
+}
+#digital .linksWrapper .linksItem {
+  display: inline-block;
+  line-height: 120px;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .servicesProvidedItem {
+    display: block !important;
+    width: 90% !important;
+  }
+
+  .impressivePortfolioItemLeftBox {
+    display: block !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+  .impressivePortfolioItemLeftBox .overLay {
+    width: 100% !important;
+  }
+
+  .impressivePortfolioItemRightBox {
+    display: block !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+  }
+  .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper {
+    width: 100% !important;
+  }
+  .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 28px !important;
+  }
+  .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg .overLay {
+    height: calc(100% - 28px) !important;
+    width: 100% !important;
+    margin-top: 28px;
+  }
+  .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 28px !important;
+  }
+  .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg .overLay {
+    height: calc(100% - 28px) !important;
+    width: 100% !important;
+    margin-top: 28px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1125px) {
+  .impressivePortfolioItemLeftBox {
+    width: 31.4% !important;
+  }
+
+  .overLay h2 {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .impressivePortfolioItemRightBoxBottom {
+    padding-top: 14px !important;
+  }
+}
+#digital .servicesProvided {
+  width: 100%;
+  margin-top: 85px;
+}
+#digital .servicesProvided .servicesProvidedTitle {
+  width: 80%;
+  margin: 0px auto;
+  border-bottom: 1px solid #E9E9E9;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .servicesProvided .servicesProvidedTitle h1 {
+  color: #53B778;
+  font-size: 30px;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem {
+  display: inline-block;
+  width: 31%;
+  box-sizing: border-box;
+  padding: 45px 10px 20px 30px;
+  border-bottom: 2px solid #53B778;
+  margin-right: 10px;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem:hover .servicesProvidedItemIcon i {
+  color: #53B778 !important;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem:hover .servicesProvidedItemTitle h1 {
+  color: #53B778 !important;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem .servicesProvidedItemIcon {
+  cursor: pointer;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem .servicesProvidedItemIcon i {
+  font-size: 60px;
+  font-weight: 100 !important;
+  color: #323A45;
+  transition: 0.4s all ease;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem .servicesProvidedItemTitle {
+  cursor: pointer;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem .servicesProvidedItemTitle h1 {
+  font-size: 24px;
+  color: #323A45;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.4s all ease;
+}
+#digital .servicesProvided .servicesProvidedBotWrapper .servicesProvidedItem .servicesProvidedItemDesc p {
+  font-size: 18px;
+  color: #8D8D8E;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .impressivePortfolio {
+  width: 100%;
+  margin-top: 85px;
+}
+#digital .impressivePortfolio .impressivePortfolioTitle {
+  width: 80%;
+  margin: 0px auto;
+  border-bottom: 1px solid #E9E9E9;
+  font-family: 'Roboto', sans-serif;
+}
+#digital .impressivePortfolio .impressivePortfolioTitle h1 {
+  color: #53B778;
+  font-size: 30px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 40px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox {
+  position: relative;
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 15px;
+  text-align: center;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox:hover .overLay {
+  display: block !important;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox img {
+  width: 100%;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox .overLay {
+  box-sizing: border-box;
+  padding: 20px;
+  width: calc(100% - 15px);
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox .overLay span {
+  color: white;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox .overLay h2 {
+  color: white;
+  font-size: 18px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox .overLay button {
+  transition: 0.3s all ease;
+  border: 1px solid #53B778;
+  background: #53B778;
+  border-radius: 0px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemLeftBox .overLay button:hover {
+  background: transparent;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox {
+  width: 63.5%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 15px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper {
+  width: 100%;
+  padding-bottom: 15px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg {
+  position: relative;
+  width: 49%;
+  float: left;
+  padding-right: 15px;
+  text-align: center;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg:hover .overLay {
+  display: block !important;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg img {
+  width: 100%;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg .overLay {
+  box-sizing: border-box;
+  padding: 20px;
+  width: calc(100% - 15px);
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg .overLay span {
+  color: white;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg .overLay h2 {
+  color: white;
+  font-size: 18px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg .overLay button {
+  transition: 0.3s all ease;
+  border: 1px solid #53B778;
+  background: #53B778;
+  border-radius: 0px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .leftImg .overLay button:hover {
+  background: transparent;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg {
+  position: relative;
+  width: 49%;
+  float: right;
+  padding-left: 15px;
+  text-align: center;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg:hover .overLay {
+  display: block !important;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg img {
+  width: 100%;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg .overLay {
+  box-sizing: border-box;
+  padding: 20px;
+  width: calc(100% - 15px);
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg .overLay span {
+  color: white;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg .overLay h2 {
+  color: white;
+  font-size: 18px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg .overLay button {
+  transition: 0.3s all ease;
+  border: 1px solid #53B778;
+  background: #53B778;
+  border-radius: 0px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .rightImg .overLay button:hover {
+  background: transparent;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxUpper .clearDiv {
+  clear: both;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom {
+  position: relative;
+  width: 100%;
+  vertical-align: bottom;
+  padding-top: 15px;
+  text-align: center;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom:hover .overLay {
+  display: block !important;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom img {
+  width: 100%;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom .overLay {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 15px);
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0px;
+  display: none;
+  margin-top: 15px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom .overLay span {
+  color: white;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom .overLay h2 {
+  color: white;
+  font-size: 18px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom .overLay button {
+  transition: 0.3s all ease;
+  border: 1px solid #53B778;
+  background: #53B778;
+  border-radius: 0px;
+}
+#digital .impressivePortfolio .impressivePortfolioBotWrapper .impressivePortfolioItemRightBox .impressivePortfolioItemRightBoxBottom .overLay button:hover {
+  background: transparent;
 }
 
 /*# sourceMappingURL=digital.css.map */
